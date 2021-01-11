@@ -1,0 +1,31 @@
+{
+  "name": "findcep",
+  "version": "1.0.2",
+  "description": "Ferramenta de buscar por ceps e endereços baseada no serviço Viacep",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiago-clementino/findcep.git"
+  },
+  "keywords": [
+    "cep",
+    "endereço",
+    "correios",
+    "viacep"
+  ],
+  "author": "Tiago Clementino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tiago-clementino/findcep/issues"
+  },
+  "homepage": "https://github.com/tiago-clementino/findcep#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
