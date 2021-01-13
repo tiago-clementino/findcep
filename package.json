@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/tiago-clementino/findcep#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
