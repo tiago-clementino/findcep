@@ -134,5 +134,23 @@ console.log(resultAddress);
 
 ```
 
+## API de teste
+
+Para testar o módulo desenvolvido aqui, basta clonar este repositório e dentro da pasta raiz digitar :
+
+```
+node app.js
+```
+Em seguida, no endereço `http://localhost:3000` inclua os parãmetros CEP ou UF/Cidade/Logradouro, para consultar o endereço ou o provável CEP, respectivamente. Para o exemplo de código descrito na seção anterior a consulta seria a seguinte:
+
+```
+http://localhost:3000/58428830
+```
+ou
+
+```
+http://localhost:3000/PB/Campina Grande/Rua Aprígio Veloso
+```
+Como resposta teremos na aba do navegador utilizado a mesma saída mostrada anteriormente.
 
 [![npm](https://img.shields.io/npm/l/express.svg)](https://github.com/tiago-clementino/findcep/blob/master/LICENSE)<br />
