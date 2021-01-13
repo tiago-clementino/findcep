@@ -136,7 +136,7 @@ console.log(resultAddress);
 
 ## API de teste
 
-Para testar o módulo desenvolvido aqui, basta clonar este repositório e dentro da pasta raiz digitar :
+Para testar o módulo desenvolvido aqui, basta clonar este repositório e dentro da pasta raiz no terminal digitar :
 
 ```
 node app.js
